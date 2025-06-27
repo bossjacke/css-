@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Assessment</title>
+    <link rel="stylesheet" href="./CSS Assessment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        div {
+            margin: auto;
+            width: 800px;
+            height: 800px;
+            border: 3px solid black;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        form {
+            background-color: #ecf5ff;
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-bottom: 700px;
+            padding-top: 20px;
+            top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center">
+        Student Profile Registration
+    </h1>
+    <form>
+        <section>
+            <div>
+                <fieldset style=" margin: 5px; border: 2px black dashed ; ;">
+                    <legend><strong>Personal Details</strong></legend>
+                    <label for="Full Name" style="margin: 8px 0;"><strong>Full Name:</strong></label><br>
+                    <input type="text" style=" width:100%; "><br>
+                    <label for="email" style="margin: 8px 0;"><strong>Email Address:</strong></label><br>
+                    <input type="email" style=" width: 100%;"><br>
+                    <label for="bio" style="margin: 8px 0;"><strong>Short Bio:</strong></label><br>
+                    <textarea name="Student" id="" style=" width: 100%;"></textarea>
+                </fieldset>
+                <fieldset style=" margin: 5px; border: 2px black dashed ; ;">
+                    <legend></strong>Course Selection</legend>
+                    <p>
+                        <label for="Course"><strong>Choose a Course</strong></label><br>
+                        <select id="Course" style=" width: 100%;">
+                            <option value="web development">Web development</option>
+                            <option value="linux design">Linux design</option>
+                            <option value="data science">Data science</option>
+                        </select><br>
+                        <label for="days" style=" height: 10px;"><strong>Available Days</strong></label>
+                    <p>
+                        <label for="days">Monday</label>
+                        <input type="checkbox" style="width: 80%;">
+                    </p>
+                    <label for="Days">Wednesday</label>
+                    <input type="checkbox" style="width: 74.5%;">
+                    <p>
+                        <label for="days">Friday</label>
+                        <input type="checkbox" style="width: 83%;">
+                    </p>
+                </fieldset>
+                <section>
+                    <section class="Coures">
+                        <img src="./1196963-200.png" style="width: 30px; height: 30px;">
+                        <h2><strong>Available Coures</strong></h2>
+                    </section>
+                    <ul>
+                        <li>HTML,CSS,JavaScript</li>
+                        <li>React & Next.js</li>
+                        <li>Node.js and Express</li>
+                        <li>Python for Beginners</li>
+                    </ul>
+                </section>
+                <section class="Sessions">
+                    <!-- <img src="./images.png" style="width: 30px; height: 30px;"> -->
+                    <i class="fa-solid fa-calendar-days" style="color: blue;"></i>
+                    <h2 style="margin-left: 10px;">Upcoming Sessions</h2>
+                </section>
+                <table border="1" style="width: 100%; border-collapse: collapse;">
+                    <tr style="background-color: cyan;">
+                        <th>Coures</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>June 25</td>
+                        <td>10:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript Basics</td>
+                        <td>June 28</td>
+                        <td>2:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>React Introduction</td>
+                        <td>July 1</td>
+                        <td>11:00 AM</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <p style="text-align: center; background-color: darkslategrey; color: aliceblue; width: 100%;">&copy;2025 UKi
+            Tech School | Student Portal</p>
+    </form>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,10 @@
+.Sessions {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.Coures {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
